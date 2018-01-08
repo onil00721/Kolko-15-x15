@@ -3,7 +3,7 @@
     
 
 $( "#1" ).click(function() {     //akcja dla kratki 1
-     $("#1").html( "X");
+     $("#1").html( "<p>X</p>");
 });
 
 
