@@ -8,8 +8,10 @@ body{
       
    }
    .rzad{
-//max-height: 52px; 
-      
+       margin-left: 18%;
+     max-width: 768px; 
+     min-width: 768px; 
+       
        
    }
    .kratka{

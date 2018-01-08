@@ -2,7 +2,7 @@
 
     
 
-$( ".kratka" ).click(function() {     
+$( ".rzad" ).click(function() {     
        $(" .kratka p").html("<p>X</p>");
     $("p").css({"opacity": "0.9", "font-size": "100%"});
     // $("#1 p").css("background-color", " blue");
@@ -11,16 +11,19 @@ $( ".kratka" ).click(function() {
 });
 
 
+
+
+
 $( "button" ).click(function() {  
     
-    for(var i=0; i<10; i++){
+    for(var i=1; i<257; i++){
     
-     $(" .rzad ").append(  '<div  class="kratka">  <p>k</p> </div>' );
-               //$("kratka").css({"opacity": "0.9", "margin:left":  "j" + "px" "font-size": "100%"});
+     $(" .rzad ").append(  '<div  class="kratka">  <p>'+ i +"</p> </div>" );
+              
 
     console.log(i);
     }
-
+ //$(".kratka").css({"opacity": "0.9", "margin:left":  "j" + "px" "font-size": "100%"});
               
               
     });
@@ -29,3 +32,6 @@ $( "button" ).click(function() {
 
 
  //<div  class="kratka">  <p>k</p> </div>
+
+
+  //<div class="kratka"><p>fa</p></div>
