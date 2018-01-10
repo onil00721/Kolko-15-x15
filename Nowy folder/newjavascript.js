@@ -20,7 +20,7 @@ for (var k=1; k<=192 ; k++){
    // console.log(k+ " wartość k");
     //console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
 
-    
+   var l=1;
 
     for (var j=k; j<= k+65; j+=16){
        // console.log(k+ " wartość k");
@@ -28,17 +28,36 @@ for (var k=1; k<=192 ; k++){
     
     if (tab[j]==10){
         
+       
        // console.log(  j + '  tab[j]' + "  spełnion równosć  dziesięć");  
      
         var tab2=[];
       
         tab2[j]=j;
-        console.log(tab2[j]);
         
-        var n = $ (tab2[j]).length;
+        console.log(tab2[j]+" tablica 2");
+        console.log(l);
         
-        console.log(n+"Wielkość tablicy ");
+ 
+        for (var y=0; y<258; y++){
+            if (tab2[y]>0){
+                 console.log(tab2[y]+ "   zawartość tab2 ");//Filtrowanie tablicy pod kontem zwycięskich pól
+                
+            }
+           
+        }
         
+        
+        l++;
+         
+        if(l==6){
+             console.log("Jesteś zwycięzcą");
+             //console.log(tab2 + "szczęśliwe numery to ");
+        }
+        
+      
+        
+    
         
       
     }
