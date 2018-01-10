@@ -21,14 +21,23 @@ for (var k=1; k<=192 ; k++){
     //console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
 
     
-for (var j=k; j<= k+65; j+=16){
+
+    for (var j=k; j<= k+65; j+=16){
        // console.log(k+ " wartość k");
        // console.log(j+ " wartość j");
     
     if (tab[j]==10){
         
-        console.log(  j + '  tab[j]' + "  spełnion równosć  dziesięć");  
+       // console.log(  j + '  tab[j]' + "  spełnion równosć  dziesięć");  
+     
+        var tab2=[];
       
+        tab2[j]=j;
+        console.log(tab2[j]);
+        
+        var n = $ (tab2[j]).length;
+        
+        console.log(n+"Wielkość tablicy ");
         
         
       
