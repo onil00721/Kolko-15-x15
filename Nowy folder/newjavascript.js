@@ -11,42 +11,34 @@ tab[i]=i;
   tab[119]=10  
   tab[135]=10  
   tab[151]=10  
-
         
 }
 
-/*for (k=1; k<=192 ; k++){
-    if (tab[k]==10){
-        
-        console.log(  k + 'tab[k]' + "  test test");
-        
-    }
-    
-    
-}
-*/
 
 
+for (var k=1; k<=192 ; k++){
+   // console.log(k+ " wartość k");
+    //console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
 
-
-for (k=1; k<=192 ; k++){
-    console.log(k+ " wartość k");
-    console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
     
 for (var j=k; j<= k+65; j+=16){
-    if(j==10){
-    console.log(tab[j]+" wartość wypisana z pętli");
+       // console.log(k+ " wartość k");
+       // console.log(j+ " wartość j");
+    
+    if (tab[j]==10){
+        
+        console.log(  j + '  tab[j]' + "  spełnion równosć  dziesięć");  
+      
+        
+        
+      
+    }
+
+}                                   //logika przeszukująca rzędy w pionie 
 }
-}
-}                                   //logika przeszukująca rzędy pionowe 
 
 
-
-
-
-
-
-
+/*
 console.log(tab[87]);
 console.log(tab[103]);
 console.log(tab[119]);
@@ -58,3 +50,22 @@ console.log(tab[154]);
         
         
 
+/*for (k=1; k<=192 ; k++){
+    if (tab[k]==10){
+        
+        console.log(  k + 'tab[k]' + "  test test");        
+    }   
+}
+
+
+
+
+ if(j==10){
+    console.log(tab[j]+" wartość wypisana z pętli");
+}
+
+
+
+
+
+*/
