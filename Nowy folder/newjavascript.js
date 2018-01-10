@@ -15,28 +15,34 @@ tab[i]=i;
         
 }
 
-
 /*for (k=1; k<=192 ; k++){
-    console.log(k+ " wartość k");
-    // console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
+    if (tab[k]==10){
+        
+        console.log(  k + 'tab[k]' + "  test test");
+        
+    }
     
-for (j=k; j<= k+65; j+=16){
+    
+}
+*/
+
+
+
+
+for (k=1; k<=192 ; k++){
+    console.log(k+ " wartość k");
+    console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
+    
+for (var j=k; j<= k+65; j+=16){
     if(j==10){
     console.log(tab[j]+" wartość wypisana z pętli");
 }
 }
 }                                   //logika przeszukująca rzędy pionowe 
-*/
-for (var g=1; g<257; g++){
-    if(g==10){
-        
-       // console.log(tab[]+" wartość wypisana z pętli");
-    }
-}
 
-if(tab[]=10){
-    console.log("hhhhhhhhhhh")
-}
+
+
+
 
 
 
