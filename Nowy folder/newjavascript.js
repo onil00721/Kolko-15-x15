@@ -2,9 +2,11 @@
 
 
 var tab=[];
-
+ var tab2=[];
 for (var i=1; i<257; i++){
 tab[i]=i;
+
+
 
   tab[87]=10  
   tab[103]=10  
@@ -16,43 +18,72 @@ tab[i]=i;
 
 
 
-for (var k=1; k<=192 ; k++){
-   // console.log(k+ " wartość k");
-    //console.log(tab[j]+" wartość wypisana z 1 1 1pętli");
+for (var k=1; k<=192 ; k++){   
 
    var l=1;
-
-    for (var j=k; j<= k+65; j+=16){
-       // console.log(k+ " wartość k");
-       // console.log(j+ " wartość j");
     
-    if (tab[j]==10){
-        
+
+    for (var j=k; j<= k+65; j+=16){             //przeszukujem pola pionowo       
+    
+    if (tab[j]==10){       
        
-       // console.log(  j + '  tab[j]' + "  spełnion równosć  dziesięć");  
-     
-        var tab2=[];
       
         tab2[j]=j;
         
-        console.log(tab2[j]+" tablica 2");
-        console.log(l);
+       
+        
+        
+        
         
  
         for (var y=0; y<258; y++){
             if (tab2[y]>0){
-                 console.log(tab2[y]+ "   zawartość tab2 ");//Filtrowanie tablicy pod kontem zwycięskich pól
+                // console.log(tab2[y]+ "   zawartość tab2 ");//Filtrowanie tablicy pod kontem zwycięskich pól 
+                 //console.log(tab2);
+                 //console.log(tab2[y]);
+                 tab2.sort();
+                console.log(tab2[y]);
+               
+                /*
+                                      tab2.sort();
+
+                                                    var t=1;
+                                    var a,b,e,f,g;
+
+
+
+
+                                    for( t=0; t<tab2.length; t++){
+                                        var a;
+                                        var b;
+                                        e=t+1;
+                                    f=t+1;
+                                    g=t+2;
+                                       a =tab2.slice(t,e);
+                                          b = tab2.slice(f,g);
+                                        a = parseInt(a);
+                                        b = parseInt(b);
+
+
+                                            if(a!=b){
+
+                                        //console.log(a + "   a");  
+                                                console.log(tab2[y]+ "    tab2 ");
+                                        }   
+                                       }
+
+                */
                 
-            }
-           
-        }
-        
+                
+            }           
+        }        
         
         l++;
          
         if(l==6){
              console.log("Jesteś zwycięzcą");
              //console.log(tab2 + "szczęśliwe numery to ");
+            
         }
         
       
