@@ -54,17 +54,30 @@ for (var k=1; k<=241 ; k+=16){
  for (var j=k; j<= k+4; j++){  
 */
 
-
-var s=0;
-for (var k=1; k<=241+s ; k+=16){  
+var h=1;
+var s=2;
+for (var k=h; k<=251 ; k+=16){  
+   // console.log(h);
+    console.log(k);
+    
+    if(k>=(240+h)){
+        k=h+1;
+        h++;
+          console.log(k+"sss");
+         
+    }
+}
        //var l=0;
         //var h=0;
     // console.log(k+"kk");
-    for (var j=k; j<=k+4; j++){    
+  /*  for (var j=k; j<=k+4; j++){    
  //console.log(k);
-         console.log(s);
-       var g=241;
-    if (k==g){
+         console.log(k);
+       var g=239+s;
+    if (k==241){
+        s++;
+        k=s;
+        
         g=241+s
          console.log(s);
         s++;     
@@ -87,6 +100,6 @@ for (var k=1; k<=241+s ; k+=16){
             // console.log("hit");
               //console.log(tab2);
          }
-      } */
- }
+      }} */
+ 
 
