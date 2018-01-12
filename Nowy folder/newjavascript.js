@@ -54,6 +54,17 @@ for (var k=1; k<=241 ; k+=16){
  for (var j=k; j<= k+4; j++){  
 */
 
+var m=1;
+for (var i=m; i<=120; i++){
+    if(i>=12+j){
+        i+=4;
+        m+=16;
+        console.log(i);
+    }
+}
+
+
+
 var h=1;
 var s=2;
 for (var k=h; k<=251 ; k+=16){  
