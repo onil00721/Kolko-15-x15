@@ -9,16 +9,13 @@ for (var i=1; i<257; i++){
 tab[i]=i;
 
   tab[87]=1000  
-  tab[103]=1000  
-  tab[119]=1000  
-  tab[135]=1000  
-  tab[151]=1000
+  tab[88]=1000  
+  tab[89]=1000  
+  tab[90]=1000  
+  tab[91]=1000
     
     
 }
-
-
-
 
 
 
@@ -27,7 +24,7 @@ for (var k=1; k<=192 ; k++){
         var h=0;
         
  for (var j=k; j<= k+65; j+=16){             //przeszukujem pola pionowo po 5 kratek i z przesunięciem w bok    
-    
+    console.log(j);
      if (tab[j]==1000){       
          tab2[h]=j;       
          h++;   
