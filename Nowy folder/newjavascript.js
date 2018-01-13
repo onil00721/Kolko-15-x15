@@ -55,11 +55,12 @@ for (var k=1; k<=241 ; k+=16){
 */
 
 var m=1;
-for (var i=m; i<=120; i++){
-    if(i>=12+j){
-        i+=4;
+for (var o=m; o<=256; o++){
+    console.log(o);
+    if(o>=11+m){
+        o+=4;
         m+=16;
-        console.log(i);
+     
     }
 }
 
@@ -69,12 +70,12 @@ var h=1;
 var s=2;
 for (var k=h; k<=251 ; k+=16){  
    // console.log(h);
-    console.log(k);
+    //console.log(k);
     
     if(k>=(240+h)){
         k=h+1;
         h++;
-          console.log(k+"sss");
+          //console.log(k+"sss");
          
     }
 }
