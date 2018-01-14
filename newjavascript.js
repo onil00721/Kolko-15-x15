@@ -25,7 +25,15 @@ for (var k=1; k<=192 ; k++){
          l++;
          
          if (l==5){                //zwraca informacje o numerach zwycięzkich pól 
-       console.log("hit 2 ");                   
+       console.log("hit 2 ");  
+             if (t==1000){
+                 console.log("Wygrywa X")
+                  $("#zwyciezca").html("<p>Zwycięzcą jest X !!!!! Gratulacje</p>"); 
+             }
+             else {
+                 console.log("Wygrywa O");
+                $("#zwyciezca").html("<p>Zwycięzcą jest O !!!!! Gratulacje</p>"); 
+                  }
        console.log(tab2);                   
          }
       }
@@ -56,6 +64,14 @@ for (var o=m; o<=256; o++){           //wyszukujemy zwycięzkie pola w poziomie
          if (q==5){                //zwraca informacje o numerach zwycięzkich pól w poziomie          
            console.log("hit 3 ");
            console.log(tab3);
+             if (t==1000){
+                 console.log("Wygrywa X")
+                  $("#zwyciezca").html("<p>Zwycięzcą jest X !!!!! Gratulacje</p>"); 
+             }
+             else {
+                 console.log("Wygrywa O");
+                $("#zwyciezca").html("<p>Zwycięzcą jest O !!!!! Gratulacje</p>"); 
+                  }
          
            }           
         }         
@@ -87,7 +103,15 @@ for (var a=1; a<=188 ; a++){
         
      if (b==5){                //zwraca informacje o numerach zwycięzkich pól 
          console.log("hit 4");                   
-         console.log(tab4);                   
+         console.log(tab4); 
+         if (t==1000){
+                 console.log("Wygrywa X")
+                  $("#zwyciezca").html("<p>Zwycięzcą jest X !!!!! Gratulacje</p>"); 
+             }
+             else {
+                 console.log("Wygrywa O");
+                $("#zwyciezca").html("<p>Zwycięzcą jest O !!!!! Gratulacje</p>"); 
+                  }
          }
       }
     }
@@ -116,7 +140,15 @@ for (var f=192; f>=5 ; f--){
 
          if (g==5){                //zwraca informacje o numerach zwycięzkich pól 
        console.log("hit 5 ");                   
-        console.log(tab5);                   
+        console.log(tab5); 
+             if (t==1000){
+                 console.log("Wygrywa X")
+                  $("#zwyciezca").html("<p>Zwycięzcą jest X !!!!! Gratulacje</p>"); 
+             }
+             else {
+                 console.log("Wygrywa O");
+                $("#zwyciezca").html("<p>Zwycięzcą jest O !!!!! Gratulacje</p>"); 
+                  }
          }
       }
     }
@@ -180,15 +212,6 @@ for (var f=192; f>=5 ; f--){
 
 
 
-
-
-
-
-
-    
-
-
-   
 
  
 

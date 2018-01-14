@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+ var b=12;
+for (  var a=0; a<256;a++){     //zabezpieczenie rzędów poziomych zwycięzkich    
+  
+    if ( a <= b   ){
+        // console.log(a );    
+      }
+   
+    else   {
+        a+=3;
+        b+=16;
+     }
+    }
+
+
+
+
+
+
+var b=12;
+for (var a=1; a<=188 ; a++){  //zabezpieczenie rzędów przed złymi wartościami- rzędy na ukos w prawo 
+       
+        if ( a <= b   ){
+        
+     }
+    else   {
+       a+=4;
+       b+=16;
+        
+          // console.log("    ");   
+     
+    }
+    
+    
+ for (var d=a; d<= a+68; d+=17){             //przeszukujem pola na ukos po 5 kratek i z przesunięciem w bok   
+   //console.log(d );   
+     
+     
+     
+
+         
+        
+    }
+}
+
+
+
+
+
+
+ var b=181;
+for (var f=192; f>=5 ; f--){  //przeszukujem pola na ukos w lewo 
+      
+    if ( f >= b   ){
+        
+      }
+   
+    else   {
+        f-=4;
+        b-=16;
+        // console.log("          ")
+     }
+    
+ for (var p=f; p<=f+68; p+=15){       
+   
+     
+     
+ //console.log(p)
+ }
+}
+
+
+
+
+*/
+
